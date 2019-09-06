@@ -15,7 +15,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>Holy shit balls, lets like some dank jokes.</Text>
+        <Text style={styles.text}>Messing around with some "jokes"</Text>
         <Input
           updateJokes={(jokes) => this.setState({ jokes: jokes })}
           value={this.state.value}
